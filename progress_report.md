@@ -2,14 +2,16 @@
 ## Captain's Log: Stardate 2/7/19
 __Changes__ -
 Creation of this GitHub repo as a starting point of this research project.
-##Captain's Log : 1st Progress Report Stardate 2/21/19
+
+## Captain's Log : 1st Progress Report Stardate 2/21/19
+
 So I discovered that the person who assembled the original corpus has posted an updated repository that contains individual months or a few daily samples. Since the month samples are huge (3GB compressed, 40GB uncompressed), I am going to do what I can off of a daily sample. For those wishing to download it and try themselves, I picked the "RC_2017-12-21.xz" archive from the daily section. This daily sample is about 259MB compressed, 2GB uncompressed. I learned how to read in the data while it's in it's compressed form (more in Jupyter notebook file).
 
 My data is pre-organized by various attributes, karma score, author, if archived and such. There's about 80 columns of data (though this decreases to 22 if I normalize it with json), most of which I do not need. I'll probably save each subreddit as separetly, and then create an additonal file that has only the attributes I need. The attributes I'm mostly concerned are the title and content of a post, the karma score, number of comments, and possibly the number of guilds if I get additional time to play around with it. Also post ID (and Parent ID for comments).
 
 (Also heads up, my current read file function is REALLY slow since even the daily sample is about 3 million lines long, give or take a few, this is why I didn't restart the kernel in the notebook file, not because I don't have the data, but it's really slow.)
 
-###Sharing Options
+### Sharing Options
 
 As far as I know, tbe corpus is publicly available, I cannot find any license anywhere. I've looked through Reddit's term of service, so unless they harvested the Reddit comments illegally (which if they did, their posts linking to this would be removed since they posted this on Reddit), there is no copyright on Reddit's end. So as far as I know, I can publish the data. This leads me to present a couple options:
 
