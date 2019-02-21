@@ -2,7 +2,7 @@
 ## Captain's Log: Stardate 2/7/19
 __Changes__ -
 Creation of this GitHub repo as a starting point of this research project.
-##Captain's Log : 1st Progress Report
+##Captain's Log : 1st Progress Report Stardate 2/21/19
 So I discovered that the person who assembled the original corpus has posted an updated repository that contains individual months or a few daily samples. Since the month samples are huge (3GB compressed, 40GB uncompressed), I am going to do what I can off of a daily sample. For those wishing to download it and try themselves, I picked the "RC_2017-12-21.xz" archive from the daily section. This daily sample is about 259MB compressed, 2GB uncompressed. I learned how to read in the data while it's in it's compressed form (more in Jupyter notebook file).
 
 My data is pre-organized by various attributes, karma score, author, if archived and such. There's about 80 columns of data (though this decreases to 22 if I normalize it with json), most of which I do not need. I'll probably save each subreddit as separetly, and then create an additonal file that has only the attributes I need. The attributes I'm mostly concerned are the title and content of a post, the karma score, number of comments, and possibly the number of guilds if I get additional time to play around with it. Also post ID (and Parent ID for comments).
