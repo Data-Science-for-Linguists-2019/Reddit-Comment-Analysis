@@ -23,5 +23,18 @@ Here are some links:
 
 * [The Reddit Post](https://www.reddit.com/r/datasets/comments/8aen5g/update_for_the_reddit_corpus/) in question
 * A link straight to [the updated Reddit corpus](https://files.pushshift.io/reddit/)
-* The Jupyter Notebook file : [project-explore.ipynb](project-explore.ipynb)
+* The Jupyter Notebook file : [project-explore.ipynb](legacy_notebooks/project-explore.ipynb)
 * The Data Sample : [AskReddit 1000 samples](data_samples/AskReddit1000samples.csv)
+
+## Captain's Log : 2nd Progress Report Stardate 3/19/19
+
+I'm sticking with the single day corpus. Dealing with comments from a larger timeframe would be convienient, but processing them would take a while.
+
+I am fully committing to the machine learning of identifying subreddit based on the comment. I have even done some preliminary machine learning exercises. I am currently deciding on subreddits to focus on, but I will settle upon it soon. The list will include most of the ones I used in the jupyter section. I'll aim for about 8-10 if it's managable.
+
+(I've adjusted the link in the previous section that was affected by the quick repository restructure).
+Relevant Links:
+
+* [Current Jupyter Notebook](current_phase/phase2_exploration.ipynb)
+* [The Json Sample File](data_samples/30000Above50Samples.json)
+* [The data in a browsable csv format](data_samples/30000Above50Samples.csv)
