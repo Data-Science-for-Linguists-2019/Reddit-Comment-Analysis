@@ -28,16 +28,23 @@ Here are some links:
 
 ## Captain's Log : 2nd Progress Report Stardate 3/19/19
 
-I'm sticking with the single day corpus. Dealing with comments from a larger timeframe would be better, but more time consuming to process correctly.
+###Corpus plan
+I'm sticking with the single day corpus. Dealing with comments from a larger timeframe would be better, but would mean more time consuming to process correctly, time I do not exactly have..
 
+###Constantly Evolving Project Plan
 I am fully committing to the machine learning of identifying subreddit based on the comment. I have even done some preliminary machine learning exercises. I am currently deciding on subreddits to focus on, but I will settle upon it soon. The list will include most of the ones I used in the current phase. I'll aim for about 8-10 if it's manageable.
 
+###Preliminary Analysis
 I've done some preliminary machine learning, and achieved around 65-66% accuracy as the best. 66% with just bayes. 65% with support vectors on just textual features with 5 different subreddits. This gives me a decent idea of what to work with when I expand to 8-10 subreddits. Also, this is just preliminary, so no kfold validation just yet. In the final trials, it will be used if SVD can run all of the trials in a reasonable time frame. (I forgot random state on this trial comparison, the unknown random seed trial I originally got got had 62% with Bayes, increased by 5% using support vectors, so I know there's potential with support vectors here)
 
+### Size and Publishing
 The size of the whole corpus in words is 105-106 million words, with an average of 38.7 words per comment. I've published a sizeable sample of the data in the original json format, as well as a csv format that people can peruse with a spreadsheet viewer.
 
+### Sharing Options
+I've published a sample of 30,000 comments that all have a score above 50 since that was the data I was using in machine learning. I can't share the whole corpus, but I believe I'll be able to share/publish the data from the subreddits I use. It will be the first thing I do when I have solidified that subreddit list.
+
 (I've adjusted the link in the previous section that was affected by the quick repository restructure).
-Relevant Links:
+### Relevant Links:
 
 * [Current Jupyter Notebook](current_phase/phase2_exploration.ipynb)
 * [The Json Sample File](data_samples/30000Above50Samples.json)
