@@ -16,7 +16,7 @@ My data is pre-organized by various attributes, karma score, author, if archived
 As far as I know, tbe corpus is publicly available, I cannot find any license anywhere. I've looked through Reddit's term of service, so unless they harvested the Reddit comments illegally (which if they did, their posts linking to this would be removed since they posted this on Reddit), there is no copyright on Reddit's end. So as far as I know, I can publish the data. This leads me to present a couple options:
 
 * I upload samples by subreddit. Dumping the Ask Reddit dataframe to csv is about 69MB according to my explorer, which is bigger than Github's limit. Maybe the smaller subreddits won't have this issue, but the larger ones will have to be distributed by sample
-* I upload samples of everything, even the smaller subreddits who could be uploaded naturally within the File limit. This puts all subreddits on an even presentation field. May or may not have to do this with machine learning data dpending up on the disparity.
+* I upload samples of everything, even the smaller subreddits who could be uploaded naturally within the File limit. This puts all subreddits on an even presentation field. May or may not have to do this with machine learning data depending up on the disparity.
 * I will probably end up sharing my test and training data in samples too, since I've talked with Dan in office hours and may incorporate machine learning as a goal in my project.
 
 Here are some links:  
@@ -28,9 +28,13 @@ Here are some links:
 
 ## Captain's Log : 2nd Progress Report Stardate 3/19/19
 
-I'm sticking with the single day corpus. Dealing with comments from a larger timeframe would be convienient, but processing them would take a while.
+I'm sticking with the single day corpus. Dealing with comments from a larger timeframe would be better, but more time consuming to process correctly.
 
-I am fully committing to the machine learning of identifying subreddit based on the comment. I have even done some preliminary machine learning exercises. I am currently deciding on subreddits to focus on, but I will settle upon it soon. The list will include most of the ones I used in the jupyter section. I'll aim for about 8-10 if it's managable.
+I am fully committing to the machine learning of identifying subreddit based on the comment. I have even done some preliminary machine learning exercises. I am currently deciding on subreddits to focus on, but I will settle upon it soon. The list will include most of the ones I used in the current phase. I'll aim for about 8-10 if it's manageable.
+
+I've done some preliminary machine learning, and achieved around 65-66% accuracy as the best. 66% with just bayes. 65% with support vectors on just textual features with 5 different subreddits. This gives me a decent idea of what to work with when I expand to 8-10 subreddits. Also, this is just preliminary, so no kfold validation just yet. In the final trials, it will be used if SVD can run all of the trials in a reasonable time frame. (I forgot random state on this trial comparison, the unknown random seed trial I originally got got had 62% with Bayes, increased by 5% using support vectors, so I know there's potential with support vectors here)
+
+The size of the whole corpus in words is 105-106 million words, with an average of 38.7 words per comment. I've published a sizeable sample of the data in the original json format, as well as a csv format that people can peruse with a spreadsheet viewer.
 
 (I've adjusted the link in the previous section that was affected by the quick repository restructure).
 Relevant Links:
