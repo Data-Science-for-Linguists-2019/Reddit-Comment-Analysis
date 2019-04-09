@@ -1,0 +1,9 @@
+Multinomial Best Parameters
+-------------------------------------
+Best Parameters :
+{'MNB__alpha': 0.01, 'Tfidf__max_features': None, 'Tfidf__min_df': 1, 'Tfidf__ngram_range': (1, 1), 'Tfidf__norm': 'l2'}
+
+
+Support Vector Parameters
+-------------------------------------
+slurmstepd: error: *** JOB 2145569 ON smp-n33 CANCELLED AT 2019-04-07T03:39:40 DUE TO TIME LIMIT ***
