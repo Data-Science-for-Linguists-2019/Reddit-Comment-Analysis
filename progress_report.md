@@ -49,3 +49,36 @@ I've published a sample of 30,000 comments that all have a score above 50 since 
 * [Current Jupyter Notebook](current_phase/phase2_exploration.ipynb)
 * [The Json Sample File](data_samples/30000Above50Samples.json)
 * [The data in a browsable csv format](data_samples/30000Above50Samples.csv)
+
+## Captain's Log : 3rd Progress Report Stardate 4/9/19
+
+I've probably not made as much progress as I would like, but nonetheless, I have made headway into the problem.
+
+### Subreddits
+
+I quickly determined what my list of subreddits will be. They are the following:
+
+* PrequelMemes
+* StarWars
+* relationships 
+* aww 
+* nfl 
+* gaming
+* mildlyinteresting
+* politics
+* Showerthoughts
+* worldnews
+* gifs
+* funny
+
+12 subreddits in all. I ran some quick statistics, this data size comes out at 8056 comments, 336306 words. 
+
+### Machine Learning
+
+I have made some considerable progress on the machine learning front. I established the baseline at 22% since that is the percentage of comments from politics, the largest portion. The best cross-validation runs produced acccuracy in the 60-70% range.
+
+I tried optimizing my models with grid search on the CRC. I tried two runs, first 6, then 10 hours, but it timed out on support vectors. I guess I was overzealous, I settled to use the Tfidf settings found with Multinomial Naive Bayes and just grid search on just Support Vector paramets using the tfidf settings. This may have been what lead to Multinomial Naive Bayes coming out ahead of support vectors in my runs (in terms of accuracy).
+
+I did try some features, and flairs I believe increased the accuracy, . Thus, keeping them in the data was justified in the end.
+
+
