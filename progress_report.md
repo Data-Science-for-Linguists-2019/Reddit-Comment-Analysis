@@ -52,7 +52,7 @@ I've published a sample of 30,000 comments that all have a score above 50 since 
 
 ## Captain's Log : 3rd Progress Report Stardate 4/9/19
 
-I've probably not made as much progress as I would like, but nonetheless, I have made headway into the problem.
+I've probably not made as much progress as I would like, but nonetheless, I have made headway into the problem. (I apologize in advance if this is lower quality than normal, rushed a little on this)
 
 ### Subreddits
 
@@ -81,4 +81,13 @@ I tried optimizing my models with grid search on the CRC. I tried two runs, firs
 
 I did try some features, and flairs I believe increased the accuracy, . Thus, keeping them in the data was justified in the end.
 
-
+### Links
+* [Current Phase Notebook](current_phase/phase3progress.ipynb)
+* [Notebook for re-running the tokenizer](current_phase/nltktokenizing.ipynb)
+* [CRC directory](CRC)
+    * [Script for gridsearch](CRC/redditgrid.py) 
+    * [SBatch file](CRC/redditgrid.sh)
+    * [Text file containing the output of the first job](CRC/multibest.txt)
+* The dataframe data used in the phase 3 notebook:
+    * [Json](data_samples/above50t.json)
+    * [CSV](data_samples/above50t.csv)
