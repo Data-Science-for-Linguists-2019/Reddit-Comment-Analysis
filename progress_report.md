@@ -46,7 +46,7 @@ I've published a sample of 30,000 comments that all have a score above 50 since 
 (I've adjusted the link in the previous section that was affected by the quick repository restructure).
 ### Relevant Links:
 
-* [Current Jupyter Notebook](current_phase/phase2_exploration.ipynb)
+* [Current Jupyter Notebook](legacy_notebooks/phase2_exploration.ipynb)
 * [The Json Sample File](data_samples/30000Above50Samples.json)
 * [The data in a browsable csv format](data_samples/30000Above50Samples.csv)
 
@@ -82,8 +82,8 @@ I tried optimizing my models with grid search on the CRC. I tried two runs, firs
 I did try some features, and flairs I believe increased the accuracy, . Thus, keeping them in the data was justified in the end.
 
 ### Links
-* [Current Phase Notebook](current_phase/phase3progress.ipynb)
-* [Notebook for re-running the tokenizer](current_phase/nltktokenizing.ipynb)
+* [Current Phase Notebook](legacy_notebooks/phase3progress.ipynb)
+* [Notebook for re-running the tokenizer](legacy_notebooks/nltktokenizing.ipynb)
 * [CRC directory](CRC)
     * [Script for gridsearch](CRC/redditgrid.py) 
     * [SBatch file](CRC/redditgrid.sh)
