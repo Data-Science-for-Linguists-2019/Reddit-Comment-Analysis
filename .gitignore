@@ -9,3 +9,4 @@ desktop.ini
 #------------------ directories to ignore
 temp/
 private/
+data/
