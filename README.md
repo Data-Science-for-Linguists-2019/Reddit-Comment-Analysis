@@ -35,10 +35,11 @@ Directory File Structure -
 		* [NBVIEWER](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/legacy_notebooks/phase3progress.ipynb)
 	* [NLTK Tokenization](legacy_notebooks/nltktokenizing.ipynb) I run nltk tokenization in a separate notebook to save run time on other notebooks.
 		* [NBVIEWER](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/legacy_notebooks/nltktokenizing.ipynb)
+	* [Presentation Data](legacy_notebooks/presentationdata.ipynb) - a notebook that I used to generate some of the data I used in my presentation.
+		* [NBVIEWER](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/legacy_notebooks/presentationdata.ipynb)
 * [Curent Phase](current_phase) Directory - Contains notebooks being actively worked on or from the most recent phase if none are actively worked on at the moment.
 	* [Final Notebook](current_phase/final_notebook.ipynb) - my final pieces of work - only notebook in the current directory.
 		* [NBVIEWER](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/current_phase/final_notebook.ipynb)
 * [Images](images) Directory - contains figures and images and such to be used in the final report
-
 
 Here is my [Guestbook](https://github.com/Data-Science-for-Linguists-2019/Class-Plaza/blob/master/guestbooks/guestbook_matt.md)
