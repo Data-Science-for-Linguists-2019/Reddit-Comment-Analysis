@@ -40,3 +40,24 @@ To fine tune the models even further, I decided to use CRC to run grid search. T
 * Support Vectors: 52% Single, 48% 5 fold Cross Validation
 
 I then [tried additional features](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/legacy_notebooks/phase3progress.ipynb#features). First I tried using numerical values like the karma score and controversiality (since it's represented as a boolean numerically). This ended up disastrously, as it went below the 22% accuracy by about .3% or so. Here's the confusion matrix for a good laugh:
+
+![png](images/numericalvalues.png)
+
+I then peeked at the parent ID column to see how much of a cheat it would be to use:
+
+![png](images/parentid.png)
+
+As you can see, it correctly classifies all parent ID's it has seen, and then defaults to politics when it doesn't find one. Therefore, it cannot be used, does not present any challenge and defeats the purpose of the classifier.
+Onwards, I then tried score with the textual features - this ended up leading to a downgrade of accuracy from our orevious best of 58% to 53%, which is not good. I then tried author flairs with the text. This produced the best run I have. The results on both machine learning algorithms:
+
+* Multinomial Naive Bayes: 67% singular, 62% 5 fold cross-validation
+* Support Vectors: 64% singular, 57% 5 fold cross-validation
+
+Here are the respective confusion matrices:
+
+![png](images/MultinomialFlairs.png)
+![png](images/SVCFlairs.png)
+
+As you can see - Support Vectors misclassifies as politics less than Multinomial Naive Bayes, but it misclassifies the other subreddits more often, which is where the decrease in accuracy shows. 
+
+I was unable to do much after reaching this point due to other responsibilities, but I did give truncated SVD to try feature reduction methods. It cannot be used with Naive Bayes since Naive Bayes does not work with negative numbers and Truncated SVD produces features with negative values. Thus I could only do it with support vectors. I do not know if I was using it incorrectly, or if it was not well suited to the task.

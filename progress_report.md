@@ -96,6 +96,8 @@ I did try some features, and flairs I believe increased the accuracy, . Thus, ke
 
 I was not able to make much progress for the final phase, between preparing for the presentation, finals, multiple semester-long projects alongside this one. Therefore, my final notebook will not have as much content as all of the other ones. I apologize in advance if this not the amount you were looking for.
 
+I do try Truncated SVD for feature reduction, but do not accomplish much. Either I'm misusing it or feature reduction does not help that much. I then threw my best model (Naive Bayes with the text and flair features) at the corpus again. Last time I got 11%, this time I got 38%.
+
 Relevant Links:
 
 * [Presentation Data](legacy_notebooks/presentationdata.ipynb) - a notebook that I used to generate some of the data I used in my presentation.
