@@ -60,4 +60,8 @@ Here are the respective confusion matrices:
 
 As you can see - Support Vectors misclassifies as politics less than Multinomial Naive Bayes, but it misclassifies the other subreddits more often, which is where the decrease in accuracy shows. 
 
-I was unable to do much after reaching this point due to other responsibilities, but I did give truncated SVD to try feature reduction methods. It cannot be used with Naive Bayes since Naive Bayes does not work with negative numbers and Truncated SVD produces features with negative values. Thus I could only do it with support vectors. I do not know if I was using it incorrectly, or if it was not well suited to the task.
+I was unable to do much after reaching this point due to other responsibilities, but I did [use truncated SVD](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/current_phase/final_notebook.ipynb?flush_cache=true#pca) to try feature reduction methods. It cannot be used with Naive Bayes since Naive Bayes does not work with negative numbers and Truncated SVD produces features with negative values. Thus I could only do it with support vectors. I do not know if I was using it incorrectly, or if it was not well suited to the task.
+
+I [threw my best model](https://nbviewer.jupyter.org/github/Data-Science-for-Linguists-2019/Reddit-Comment-Analysis/blob/master/current_phase/final_notebook.ipynb?flush_cache=true#apply) (which was Naive Bayes with flairs) at the data set again. I got an increase from 11% to 38%. Still below 50% which is what I hoped for, but a major step up from the baseline of 11% on the whole data set.
+
+I wanted to do more for the final phase, additional models, more feature combinations, but in the end it did not work out.
