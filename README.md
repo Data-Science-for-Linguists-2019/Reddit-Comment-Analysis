@@ -14,6 +14,7 @@ Directory File Structure -
 * [Progress Report](progress_report.md) - updates on my project throughout the semester
 * [Project Plan](project_plan.md) - Writing out my project plan and details
 * [Presentation](Presentation.pdf) - my power point presentation slides in pdf form. Because it's a pdf there are no animations therefore I feel the need to point out there's a title underneath the meme on slide 2.
+* [Final Report](final_report.md) - self - explanatory.
 * [Data_Samples](data_samples) Directory - contains Data Samples from processing the data
 	* AskReddit [1000 samples](data_samples\AskReddit1000samples.csv) A relic from my first attempts to process the data
 	* 30000 Comment Samples with Karma Score above 50 - for viewing and interacting with the data I was primarily working with

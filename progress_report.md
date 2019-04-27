@@ -91,3 +91,14 @@ I did try some features, and flairs I believe increased the accuracy, . Thus, ke
 * The dataframe data used in the phase 3 notebook:
     * [Json](data_samples/above50t.json)
     * [CSV](data_samples/above50t.csv)
+
+## Final Captain's Log Stardate 4/26/19
+
+I was not able to make much progress for the final phase, between preparing for the presentation, finals, multiple semester-long projects alongside this one. Therefore, my final notebook will not have as much content as all of the other ones. I apologize in advance if this not the amount you were looking for.
+
+Relevant Links:
+
+* [Presentation Data](legacy_notebooks/presentationdata.ipynb) - a notebook that I used to generate some of the data I used in my presentation.
+* [Final Notebook](current_phase/final_notebook.ipynb) - my final pieces of work - only notebook in the current directory.
+* [Presentation](Presentation.pdf) - my power point presentation slides in pdf form.
+* [Final Report](final_report.md) - self-explanatory
